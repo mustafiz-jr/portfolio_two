@@ -85,8 +85,8 @@ main {
 
 .main-img {
     margin-top: 10vh;
-    height: 60%;
-    width: 50%;
+    height: 700px;
+    width: 700px;
     object-fit: cover;
     border-radius: 50%;
 }
