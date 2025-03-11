@@ -1,0 +1,185 @@
+@media only screen and (max-width: 1400px) {
+    .nav-name {
+        font-size: 25px;
+        font-weight: 500;
+    }
+
+    .first-left h1 {
+        font-size: 60px;
+        font-weight: 600;
+        line-height: 60px;
+    }
+
+    .main-img {
+        height: 450px;
+        border-radius: 50%;
+    }
+
+    .firstdown h1 {
+        font-size: 35px;
+        line-height: 30px;
+        font-weight: 600;
+        margin-bottom: 15px;
+    }
+
+    .firstdown p {
+        font-size: 15px;
+    }
+
+    .secondup h1 {
+        font-size: 60px;
+        font-weight: 600;
+        line-height: 60px;
+    }
+
+    .seconddown div img {
+        height: 300px;
+        width: 400px;
+    }
+
+    .contact-left h1 {
+        font-size: 60px;
+        font-weight: 600;
+        line-height: 60px;
+    }
+
+    .footer-name {
+        font-size: 25px;
+        font-weight: 500;
+    }
+
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .nav-name {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .firstup {
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        align-items: center;
+    }
+
+    .first-left h1 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .first-left p {
+        font-size: 14px;
+        line-height: 20px;
+        color: grey;
+        width: 80%;
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+
+    .first-left a {
+        font-size: 14px;
+    }
+
+    .main-img {
+        height: 400px;
+        border-radius: 50%;
+    }
+
+
+    .firstdown h1 {
+        font-size: 28px;
+        line-height: 25px;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+
+    .firstdown p {
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 18px;
+        color: grey;
+    }
+
+    .seconddown div img {
+        height: 200px;
+        width: 290px;
+    }
+
+    .secondup a {
+        font-size: 14px;
+    }
+
+    .secondup h1 {
+        font-size: 40px;
+    }
+
+    .seconddown div h4 {
+        font-size: 18px;
+    }
+
+    .seconddown div p {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width:700px) {
+    .firstup {
+        display: flex;
+        flex-direction: column-reverse;
+        align-content: center;
+        gap: 30px;
+    }
+
+    .first-left {
+        text-align: center;
+    }
+
+    .first-left p {
+        padding-left: 45px;
+    }
+
+    .firstdown {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .seconddown {
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .contact {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .footer-name {
+        font-size: 14px;
+    }
+
+    #footer-link {
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 40px;
+    }
+
+    .footer-link {
+        padding-left: 130px;
+    }
+
+    .contact-left h1 {
+        font-size: 35px;
+        font-weight: 500;
+    }
+    
+    .contact-left p {
+        font-size: 14px;
+        line-height: 15px;
+        font-weight: 300;
+    }
+    
+
+}

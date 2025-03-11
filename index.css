@@ -1,0 +1,286 @@
+* {
+    background-color: black;
+    color: #ffff;
+    margin: 0px;
+    font-family: "Space Grotesk", serif;
+    transition: cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.3s;
+}
+
+main {
+    background-color: black;
+    color: #ffff;
+    padding: 0px 10%;
+    font-family: "Space Grotesk", serif;
+}
+
+
+
+/* Navigation Area style*/
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+.nav-link {
+    list-style: none;
+    display: flex;
+}
+
+.nav-link li a {
+    text-decoration: none;
+    font-size: 24px;
+    padding: 8px;
+}
+
+.nav-link li a i{
+    font-size: 30px;
+}
+
+.nav-link li a i:hover {
+    color: #4EE1A0;
+    transform: scale(1.05);
+}
+
+.nav-name {
+    font-size: 32px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/* Heading part style */
+.firstup {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+}
+
+.first-left h1 {
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 80px;
+}
+
+.first-left p {
+    font-size: 18px;
+    line-height: 28px;
+    color: grey;
+    width: 60%;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.first-left a {
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 700;
+    border-bottom: 2px solid #4EE1A0;
+}
+
+.first-left a:hover {
+    color: #4EE1A0;
+    border-bottom: 2px solid white;
+}
+
+.main-img {
+    margin-top: 10vh;
+    height: 60%;
+    border-radius: 50%;
+}
+
+/* Skills Name area style */
+.firstdown {
+    margin: 50px 0px;
+    display: grid;
+    gap: 40px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.firstdown h1 {
+    font-size: 45px;
+    line-height: 50px;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+
+.firstdown p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    color: grey;
+}
+
+/* Projects Area style */
+
+
+.secondup {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px 30px 0px;
+}
+
+.secondup h1 {
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 80px;
+}
+
+.secondup a {
+    height: 25px;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 700;
+    border-bottom: 2px solid #4EE1A0;
+}
+
+.secondup a:hover {
+    color: #4EE1A0;
+    border-bottom: 2px solid white;
+}
+
+.seconddown div h4 {
+    margin: 8px 0px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.seconddown div p {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 500;
+    color: grey;
+}
+
+.seconddown div img {
+    height: 400px;
+    width: 700px;
+    cursor: pointer;
+}
+
+.seconddown {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+    gap: 50px;
+    margin-bottom: 100px;
+}
+
+/* Contact Area style */
+
+.contact-left h1 {
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 80px;
+    background-color: #242424;
+}
+
+.contact-left p {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 500;
+    color: grey;
+    background-color: #242424;
+}
+
+.contact-left {
+    background-color: #242424;
+}
+
+.contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10%;
+    margin: 20px 0px;
+    background-color: #242424;
+}
+
+.contact-right form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: #242424;
+}
+
+.contact-right form input {
+    height: 40px;
+    padding: 10px;
+    border: none;
+    border-bottom: .5px solid white;
+    background-color: #242424;
+}
+
+.contact-right form input:focus{
+    outline: none;
+}
+
+.contact-right form textarea {
+    height: 80px;
+    border: none;
+    border-bottom: 0.5px solid white;
+    background-color: #242424;
+}
+
+.contact-right form textarea:focus{
+    outline: none;
+}
+.contact-right form a {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+    padding: 5px;
+    border-bottom: 2px solid #4EE1A0;
+    text-align: center;
+    width: 150px;
+    background-color: #242424;
+}
+
+.contact-right form a:hover {
+    color: #4EE1A0;
+}
+
+/* Footer Area style */
+footer {
+    padding: 60px 10% 0px 10%;
+    background-color: #242424;
+}
+
+#footer-link {
+    padding:40px 0px ;
+    display: flex;
+    background-color: #242424;
+    justify-content: space-between;
+}
+
+.footer-name{
+    font-size: 32px;
+    font-weight: 700;
+    background-color: #242424;
+}
+
+.footer-link{
+    text-decoration: none;
+    list-style: none;
+    background-color: #242424;
+    display: flex;
+}
+
+.footer-link li{
+    background-color:#242424;
+}
+
+.footer-link li a {
+    text-decoration: none;
+    font-size: 30px;
+    padding: 8px;
+    background-color: #242424;
+}
+
+.footer-link li a :hover{
+    color: #4EE1A0;
+    transform: scale(1.05);
+}
